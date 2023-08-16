@@ -1,2 +1,2 @@
-# trivia-matematica
+# Trivia matemática
 Juego de trivia matemática
