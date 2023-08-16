@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dceb09;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 13px 17px 25px -9px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 13px 17px 25px -9px rgba(0, 0, 0, 0.3);
+    box-shadow: 13px 17px 25px -9px rgba(0, 0, 0, 0.3);
+}
+
+.container input[type='button'] {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    cursor: pointer;
+    -webkit-box-shadow: 13px 17px 25px -9px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 13px 17px 25px -9px rgba(0, 0, 0, 0.3);
+    box-shadow: 13px 17px 25px -9px rgba(0, 0, 0, 0.3);
+}
+
+.container .content-question {
+    /* background-color: #dceb09; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .question, .container input.answer {
+    font-size: 1.5rem;
+}
+
+.container input.answer {
+    width: 70px;
+    text-align: center;
+}
